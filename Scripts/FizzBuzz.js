@@ -1,4 +1,4 @@
-console.log('u are sussy baca');
+console.log('FizzBuzz');
 
 let stop = false; //boolean for testNaN() validation function, see end of file.
 

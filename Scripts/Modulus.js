@@ -1,4 +1,4 @@
-console.log('u are sussy baca');
+console.log('modulus');
 
 let stop = false; //boolean for testNaN() validation function, see end of file.
 
