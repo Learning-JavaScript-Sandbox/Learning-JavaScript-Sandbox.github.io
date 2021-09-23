@@ -1,28 +1,21 @@
-console.log('max 2 num');
+// max of two numbers
+function main(){
+  let numberA, numberB;
 
-let stop = false; //boolean for testNaN() validation function, see end of file.
+  numberA = document.getElementById("numberA").value;
+  numberB = document.getElementById("numberB").value;
 
-function javascript () {  //where console.log tested file goes
+  numberA = Number(numberA);
+  numberB = Number(numberB);
 
-}
-// Main function, necessary lines of code
-function main() {
-  let firstNumber, secondNumber; //variables particular to js assignment, makes it work
-  // get the value of the height input field, id="textfield1", assign it to a variable.
-  firstNumber = document.getElementByID("textfield1").value;
-  second  Number = document.getElementByID("textfield2").value;
-  // validate by alert or HTML text in p-tag
-  document.getElementByID("validatiyTest1").innerHTML = alert (testNaN (firstNumber));
-  document.getElementByID("validatiyTest1").innerHTML = testNaN (firstNumber));
-  document.getElementByID("validatiyTest2").innerHTML = alert (testNaN (secondNumber));
-  document.getElementByID("validatiyTest2").innerHTML = testNaN (secondNumber));
-}
-//
-function testNaN (number) {
-  if ( isNaN (number)) { //NaN are not values of real number system
-    stop = true;
-    return "Type a Real Number"
+  if (numberA > numberB) {
+    document.getElementById('output').innerHTML = (numberA);
+  }else if (numberA < numberB) {
+    document.getElementById('output').innerHTML = (numberB);
+  }else if (numberA == numberB) {
+    document.getElementById('output').innerHTML = ('They are Equal');
   }else {
-    return "Input Validated"
+    document.getElementById('output').innerHTML = ('At least one of these is not a number, please fix the error!');
   }
+
 }
