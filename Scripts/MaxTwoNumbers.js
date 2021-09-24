@@ -18,4 +18,15 @@ function main(){
     document.getElementById('output').innerHTML = ('At least one of these is not a number, please fix the error!');
   }
 
+  if(isNaN (numberA)){
+    document.getElementById('verify-A').innerHTML = ('Verify Check: Please enter a real number!')
+  }else {
+    document.getElementById('verify-A').innerHTML = ('Verify Check: Your number is good!!')
+  }
+
+  if(isNaN (numberB)){
+    document.getElementById('verify-B').innerHTML = ('Verify Check: Please enter a real number!')
+  }else {
+    document.getElementById('verify-B').innerHTML = ('Verify Check: Your number is good!!')
+  }
 }
