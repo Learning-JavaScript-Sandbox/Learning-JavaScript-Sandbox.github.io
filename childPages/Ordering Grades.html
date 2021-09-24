@@ -13,6 +13,26 @@
       <nav></nav>
 
       <section>
+        <article> Description of Assignment
+          <ul>
+            <li> Problem: calculate up to 5 test scores into a letter value
+            <li>Test cases:
+              <ul>
+                <li> F 1-59%
+                <li> D 60-69%
+                <li> C 70-79%
+                <li> B 80-89%
+                <li> A 90-100%
+              </ul>
+            <li> Note: 0% is not allowed.
+            <li> Note: calculating means adding 5 scores and divided by the number of scores.
+            <li> Note: able to have less than 5 test scores and mean should still work.
+          </ul>
+        </article>
+      </section>
+
+
+      <section>
 
         <form action="x.html" method="post" onsubmit="event.preventDefault">
         <!-- Makes form not work with PHP or other server side scripting -->
@@ -21,62 +41,26 @@
 
         <!-- Non-breaking real space, adds real space to the webpage that is not eliminated by the browser -->
         <p>
-          <label for="textfield">Number1:</label>
-          <input name="textfield1" type="text" id="textfield1">
+          <label for="textfield">Grade#1:</label>
+          <input name="textfield1" type="text" id="grade1">
         </p>
         <p>
-          <label for="textfield">Number2:</label>
-          <input name="textfield2" type="text" id="textfield2">
+          <label for="textfield">Grade#2:</label>
+          <input name="textfield2" type="text" id="grade2">
         </p>
         <p>
-          <!-- Text area is multiline plain text editing control -->
-          <label for="tArea">Text Area or Box: </label>
-          <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
+          <label for="textfield">Grade#3:</label>
+          <input name="textfield1" type="text" id="grade3">
         </p>
-        <p>&nbsp</p>
+        <p>
+          <label for="textfield">Grade#4:</label>
+          <input name="textfield2" type="text" id="grade4">
+        </p>
+        <p>
+          <label for="textfield">Grade#5:</label>
+          <input name="textfield2" type="text" id="grade5">
+        </p>
 
-        <fieldset>
-          <legend> Case Studies</legend>
-          <div> TestCases
-            <ul>
-              <li>
-            </ul>
-          </div>
-          <label>
-            <Input type="radio" name="RadioGroup1" value="radio1" id="RadioGroup1-0"> Radio 1
-          </label>
-          <br>
-          <label>
-            <Input type="radio" name="RadioGroup1" value="radio2" id="RadioGroup1-1"> Radio 2
-          </label>
-          <br>
-          <label>
-            <Input type="radio" name="RadioGroup1" value="radio3" id="RadioGroup1-2"> Radio 3
-          </label>
-          <br>
-        </fieldset>
-
-        <p>&nbsp</p>
-        <fieldset>
-          <legend> Case Studies</legend>
-          <div> TestCases
-            <ul>
-              <li>
-            </ul>
-          </div>
-          <label>
-            <Input type="checkbox" name="CheckboxGroup1" value="checkbox1" id="CheckboxGroup1-0"> Checkbox 1
-          </label>
-          <br>
-          <label>
-            <Input type="checkbox" name="CheckboxoGroup1" value="checkbox2" id="CheckboxGroup1-1"> Checkbox 2
-          </label>
-          <br>
-          <label>
-            <Input type="checkbox" name="CheckboxGroup1" value="checkbox3" id="CheckboxGroup1-2"> Checkbox 3
-          </label>
-          <br>
-        </fieldset>
 
         <!-- submit button -->
         <br><br>
