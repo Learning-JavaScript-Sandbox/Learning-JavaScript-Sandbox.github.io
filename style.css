@@ -1,0 +1,25 @@
+html {
+  text-align: center;
+
+}
+
+ol  {
+  margin-left: 100;
+}
+
+h1 {
+  text-shadow: 3px 3px 3px #000000;
+  color: white;
+  border: 7px solid Blue;
+  width: 450px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+#div-1 {
+  border: 10px solid green;
+  width: 300px;
+  margin: 0 auto;
+  background-color: Blue
+}
