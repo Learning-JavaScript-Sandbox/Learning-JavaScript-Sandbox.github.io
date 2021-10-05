@@ -22,12 +22,29 @@ h1 {
   border-radius: 200px;
 }
 
-a {
+#output {
+  color: black
+}
+
+#author-link {
   color: white;
   text-decoration: none;
 }
 
-a:hover{
+#author-link:hover{
   text-decoration: underline;
   font-size: 20px;
+}
+
+fieldset {
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-table;
+}
+
+li {
+
 }
