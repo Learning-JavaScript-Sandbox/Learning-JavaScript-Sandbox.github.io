@@ -7,11 +7,12 @@
     <meta name="description" content="JavaScript Assignments with form data to collect user input">
     <meta name="keywords" content="JavaScript, html, form, data">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styleSheets/style2.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header><h1>Demerit Points</h1></header>
       <nav></nav>
-      <section>
+      <!-- <section>
         <article> description of Assignments
           <ul>
             <li>Problem: input a speed and calculate the demerit points.
@@ -36,7 +37,7 @@
               </ul>
           </ul>
         </article>
-      </section>
+      </section> -->
 
 
       <section>
@@ -54,16 +55,13 @@
 
         <!-- submit button -->
         <br><br>
-        <button type="button" onclick="main()">Submit</button>
+        <button id="submit" type="button" onclick="main()">Submit</button>
         <br>
-        <h3>The Answer is:
-          <a id="">What is the answer?</a>
+        <h3>You Got:
+          <a id="output">?</a>
         </h3>
         <article></article>
       </section>
-
-    <aside><p></p></aside>
-    <section><h3></h3><article><p></p></article></section>
 
     <script src="../scripts/DemeritPoints.js"></script>
 
@@ -74,7 +72,7 @@
     <p><strong>Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better</strong></p>
     <p>
       <em>
-        <a href="https://www.brainyquote.com/quotes/samuel_beckett_121335" target="blank">
+        <a id="author-link" href="https://www.brainyquote.com/quotes/samuel_beckett_121335" target="blank">
           Samuel Beckett
         </a>
       </em>

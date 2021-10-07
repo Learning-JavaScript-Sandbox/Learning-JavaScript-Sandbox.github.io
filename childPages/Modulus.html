@@ -7,12 +7,13 @@
     <meta name="description" content="JavaScript Assignments with form data to collect user input">
     <meta name="keywords" content="JavaScript, html, form, data">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styleSheets/style2.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header><h1>Modulus</h1></header>
       <nav></nav>
 
-      <section>
+      <!-- <section>
         <article>
           <ul>
             <li> Problem: simply ID whether a number is even or odd
@@ -23,7 +24,7 @@
               </ul>
           </ul>
         </article>
-      </section>
+      </section> -->
 
       <section>
 
@@ -31,11 +32,12 @@
         <!-- Makes form not work with PHP or other server side scripting -->
 
         <p>&nbsp</p>
+        <h3>Please enter any positive number!</h3>
 
         <!-- Non-breaking real space, adds real space to the webpage that is not eliminated by the browser -->
         <p>
-          <label for="textfield">Number1:</label>
-          <input name="textfield1" type="text" id="textfield1">
+          <label for="textfield">Number:</label>
+          <input name="textfield1" type="text" id="num-inp"><a id="verify">Verify Check:</a>
         </p>
 
         <!-- submit button -->
@@ -43,13 +45,10 @@
         <button type="button" onclick="main()">Submit</button>
         <br>
         <h3>The Answer is:
-          <a id="">What is the answer?</a>
+          <a id="output">What is the answer?</a>
         </h3>
         <article></article>
       </section>
-
-    <aside><p></p></aside>
-    <section><h3></h3><article><p></p></article></section>
 
     <script src="../scripts/Modulus.js"></script>
 
@@ -60,7 +59,7 @@
     <p><strong>Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better</strong></p>
     <p>
       <em>
-        <a href="https://www.brainyquote.com/quotes/samuel_beckett_121335" target="blank">
+        <a id="author-link" href="https://www.brainyquote.com/quotes/samuel_beckett_121335" target="blank">
           Samuel Beckett
         </a>
       </em>
