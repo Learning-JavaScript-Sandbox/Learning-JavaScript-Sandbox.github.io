@@ -6,4 +6,5 @@ function main(){
   number = Number(number);
 
   console.log(number);
+  
 }
