@@ -1,6 +1,6 @@
 html {
   text-align: center;
-  background-color: orange;
+  background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 h1 {

@@ -12,14 +12,14 @@
   <body>
     <header><h1>Greeting Someone</h1></header>
       <nav></nav>
-      <section>
+      <!-- <section>
         <article>
           <ul>
             <li> Problem: based on the time of day, say an appropriate greeting.
             <li> Test Cases:
               <ul>
                 <li> Early morning (12:00 - 7:00 AM):
-                <li> Before Lumch (7:01 - 11:59 AM):
+                <li> Before Lunch (7:01 - 11:59 AM):
                 <li> After Lunch but before Mr. Mercer's Bedtime (12:00 - 7:59 PM):
                 <li> Before your bedtime (8:00 - 11:59 PM):
               </ul>
@@ -28,7 +28,7 @@
             <li> Remember NaN function for odd inputs
           </ul>
         </article>
-      </section>
+      </section> -->
 
       <section>
 
@@ -36,19 +36,24 @@
         <!-- Makes form not work with PHP or other server side scripting -->
 
         <p>&nbsp</p>
+        <h3> Please enter a time in the form of 1059 not 10:59!</h3>
 
         <!-- Non-breaking real space, adds real space to the webpage that is not eliminated by the browser -->
         <p>
-          <label for="textfield">Number1:</label>
-          <input name="textfield1" type="text" id="textfield1">
+          <label for="textfield">Time:</label>
+          <input name="textfield1" type="text" id="time">
+        </p>
+        <p>
+          <label for="textfield">AM or PM:</label>
+          <input name="textfield1" type="text" id="am-pm">
         </p>
 
         <!-- submit button -->
         <br><br>
-        <button type="button" onclick="main()">Submit</button>
+        <button id="submit" type="button" onclick="main()">Submit</button>
         <br>
-        <h3>The Answer is:
-          <a id="">What is the answer?</a>
+        <h3>Greeting:
+          <a id="output"></a>
         </h3>
         <article></article>
       </section>
@@ -65,7 +70,7 @@
     <p><strong>Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better</strong></p>
     <p>
       <em>
-        <a href="https://www.brainyquote.com/quotes/samuel_beckett_121335" target="blank">
+        <a id="author-link" href="https://www.brainyquote.com/quotes/samuel_beckett_121335" target="blank">
           Samuel Beckett
         </a>
       </em>

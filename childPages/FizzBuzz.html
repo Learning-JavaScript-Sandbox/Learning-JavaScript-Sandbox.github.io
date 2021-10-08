@@ -38,14 +38,16 @@
         <!-- Makes form not work with PHP or other server side scripting -->
 
         <p>&nbsp</p>
-        <h3>Please Enter any Positive Number!</h3>
+        <h3>Please Enter any Real Number!</h3>
 
         <!-- Non-breaking real space, adds real space to the webpage that is not eliminated by the browser -->
         <p>
           <label for="textfield">Number:</label>
           <input name="textfield1" type="text" id="num-inp">
         </p>
-
+        <p>
+          if number%3 = 0 'Fizz', if number%5 = 0 'Buzz, if number%3 and number%5 = 0 'FizzBuzz'
+        </p>
         <!-- submit button -->
         <br><br>
         <button id="submit" type="button" onclick="main()">Submit</button>
