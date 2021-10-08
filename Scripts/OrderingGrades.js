@@ -55,4 +55,5 @@ function main() {
   }else {
     document.getElementById('output').innerHTML = ('please make sure your 5 numbers are between 1 and 100!')
   }
+  
 }
